@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JsonTransObjectBootstrap {
 
     public static void main(String[] args) {
+        System.out.println("这是dev分支");
         SpringApplication.run(JsonTransObjectBootstrap.class,args);
     }
 }
