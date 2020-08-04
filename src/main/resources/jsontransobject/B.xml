@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="create-order-post-mock">
+        <property value="name" setterMethod="setName" getterMethod="getName" fromWhere="" type="string" hasChild="false" isRequire="true"/>
+        <property value="phone" setterMethod="setPhone" getterMethod="getPhone" fromWhere="" type="long" hasChild="false" isRequire="true"/>
+        <property value="taskDto" setterMethod="setTaskDto" getterMethod="getTaskDto" fromWhere="" type="TaskDto" hasChild="true" isRequire="true"/>
+    </bean>
+</beans>
