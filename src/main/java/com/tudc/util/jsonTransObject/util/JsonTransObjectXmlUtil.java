@@ -134,6 +134,7 @@ public class JsonTransObjectXmlUtil {
         jsonTransObjectProperty.setGetterMethod(property.attributeValue("getterMethod"));
         jsonTransObjectProperty.setFromWhere(JsonTransObjectEnum.FROM_WHERE.getFromWhere(property.attributeValue("fromWhere")));
         jsonTransObjectProperty.setType(property.attributeValue("type"));
+        jsonTransObjectProperty.setRegex(property.attributeValue("regex"));
         jsonTransObjectProperty.setIsRequired(Boolean.valueOf(property.attributeValue("isRequire")));
         jsonTransObjectProperty.setHasChild(Boolean.valueOf(property.attributeValue("hasChild")));
         if(Boolean.valueOf(property.attributeValue("hasChild"))){

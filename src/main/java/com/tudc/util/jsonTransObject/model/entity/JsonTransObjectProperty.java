@@ -21,4 +21,8 @@ public class JsonTransObjectProperty {
     private Boolean hasChild;
     private Boolean isRequired;
     private List<JsonTransObjectProperty> childJsonTransObjectProperty;
+    /**
+     * 正则校验
+     */
+    private String regex;
 }

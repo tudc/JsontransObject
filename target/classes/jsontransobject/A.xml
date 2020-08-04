@@ -4,11 +4,11 @@
         <property value="orderId" setterMethod="setOrderId" type="string" fromWhere="pathvariable" isRequire="true"/>
         <property value="orderName" setterMethod="setOrderName" type="string" isRequire="true"/>
         <property value="time" setterMethod="setTime" hasChild="false" type="date" isRequire="true"/>
-        <property value="phone" setterMethod="setPhone" hasChild="false" type="string" isRequire="true"/>
-        <property value="taskDto" setterMethod="setTaskDto" hasChild="true" type="jsonObject" isRequire="true">
+        <property value="phone" setterMethod="setPhone" regex="^[1][3,4,5,8][0-9]{9}$" hasChild="false" type="string" isRequire="true"/>
+        <property value="taskDto" setterMethod="setTaskDto" hasChild="true" type="jsonobject" isRequire="true">
             <property value="name" setterMethod="setName" hasChild="false" type="string" isRequire="true"/>
             <property value="age" setterMethod="setAge" hasChild="false" type="int" isRequire="true"/>
-            <property value="approverDtoList" setterMethod="setApproverDtoList" type="jsonArray" hasChild="true" isRequire="true">
+            <property value="approverDtoList" setterMethod="setApproverDtoList" type="array" hasChild="true" isRequire="true">
                 <property value="name" setterMethod="setName" type="string" isRequire="true"/>
                 <property value="age" setterMethod="setAge" type="int" isRequire="true"/>
                 <property value="sex" setterMethod="setSexEnum" type="string" isRequire="true"/>
