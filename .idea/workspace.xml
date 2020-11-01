@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectUtil.java" line="52" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3d9f971f-0c15-4071-8465-6b6e49e82831" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/ParamHanlde.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonTransObject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/Sensitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/Sensitive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectXmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectXmlUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/MyHandlerMethodArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/MyHandlerMethodArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/Desensitizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/Desensitizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/SensitiveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/SensitiveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jsontransobject/A.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsontransobject/A.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tudc/controller/BootstrapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tudc/controller/BootstrapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tudc/entity/ApproverDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tudc/entity/ApproverDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tudc/entity/OrderDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tudc/entity/OrderDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tudc/entity/TaskDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tudc/entity/TaskDto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tudc/util/jsonTransObject/util/JsonTransObjectXmlUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tudc/util/jsonTransObject/util/JsonTransObjectXmlUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tudc/util/jsonTransObject/util/MyHandlerMethodArgumentResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tudc/util/jsonTransObject/util/MyHandlerMethodArgumentResolver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jsontransobject/A.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsontransobject/A.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,47 +34,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/MyHandlerMethodArgumentResolver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/ParamHanlde.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="565">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolver.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectXmlUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="136" column="73" selection-start-line="136" selection-start-column="73" selection-end-line="136" selection-end-column="73" />
+            <state relative-caret-position="348">
+              <caret line="102" column="97" selection-start-line="102" selection-start-column="97" selection-end-line="102" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/ParamHanlde.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="341" column="47" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#11513#11529#0" expanded="true" />
-                <element signature="e#12240#12256#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jsontransobject/A.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="10" column="91" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="91" />
+            <state relative-caret-position="500">
+              <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -86,11 +66,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="635">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/JsonTransObjectEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/Sensitive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="17" selection-start-line="13" selection-start-column="27" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/SensitiveStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/Jsontransobject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/Desensitizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/OrderDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -107,25 +142,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>argumentResolvers</find>
-      <find>Class</find>
-      <find>supportsParameter</find>
-      <find>resolve</find>
-      <find>contextClass</find>
-      <find>getNestedGenericParameterType</find>
-      <find>L</find>
-      <find>resol</find>
-      <find>targetType</find>
-      <find>List&lt;JsonTransObjectProperty&gt;</find>
-      <find>Method[]</find>
-      <find>jsonTransObjectList</find>
+      <find>doLoadBeanDefinitions</find>
+      <find>refresh</find>
+      <find>resourceLoader</find>
+      <find>apply</find>
+      <find>MyHandlerMethodArgumentResolver</find>
+      <find>jsonTransObjectMap</find>
       <find>jsontransobject</find>
-      <find>setSex</find>
-      <find>fromW</find>
-      <find>fromWhere</find>
-      <find>FROM_WHERE.REQUEST_LINE</find>
-      <find>approverDtoList</find>
+      <find>ParamHanlde</find>
+      <find>setProperty</find>
+      <find>setPropertyByType</find>
       <find>regex</find>
+      <find>obtainChildParam</find>
+      <find>obtainMethodFromClass</find>
+      <find>jsonTransObjectMap.get(jsontransobjectValue)</find>
+      <find>propertyList</find>
+      <find>obtainActualTypeArgument</find>
+      <find>parseObject</find>
+      <find>setPropertyWithClass</find>
+      <find>needLodFileList</find>
+      <find>childJsonTransObjectProperty</find>
+      <find>fields</find>
+      <find>setSexEnum</find>
+      <find>MAN</find>
+      <find>getAnnotatedType</find>
+      <find>childFields</find>
+      <find>校验正则</find>
+      <find>child</find>
+      <find>JsonTransObjectUtil</find>
+      <find>handlle</find>
+      <find>desensitization</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -143,25 +189,35 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/jsontransobject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/MyRequestResponseBodyMethodProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/MyRequestMappingHandlerAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/entity/JsonTransObject.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/entity/JsonTransObjectProperty.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jsontransobject/A1.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jsontransobject/B.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/TaskDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/SexEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/ApproverDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/OrderDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tudc/controller/BootstrapController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/FromWhereEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/JsonTransObjectEnum.java" />
         <option value="$PROJECT_DIR$/target/classes/jsontransobject/A.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/MyHandlerMethodArgumentResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jsontransobject/A.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectXmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/SensitiveStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/function/Desensitizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/function/SensitiveStrategy.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/JsonTransObjectEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/function/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/SexEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/OrderDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/ApproverDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/entity/TaskDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/controller/BootstrapController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/advice/MyExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/ParamHanlde.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jsontransobject/A.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/SensitiveStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/Sensitive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/Desensitizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectUtil.java" />
       </list>
     </option>
   </component>
@@ -195,11 +251,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="975" />
-    <option name="height" value="1060" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1933" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,7 +313,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tudc" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
@@ -267,32 +323,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tudc" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonTransObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tudc" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonTransObject" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tudc" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonTransObject" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,8 +334,54 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tudc" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonTransObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tudc" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonTransObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tudc" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonTransObject" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tudc" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonTransObject" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tudc" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonTransObject" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="enumpackage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
@@ -320,31 +396,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="jsontransobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JsontransObject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JsontransObject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="jsontransobject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -355,7 +412,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596530024299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604241371137" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -368,6 +425,11 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tudc.util.jsonTransObject.annotation" />
+      <recent name="com.tudc.util.jsonTransObject.util" />
+      <recent name="com.tudc.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\jsonTransObject\src\main\resources\jsontransobject" />
     </key>
@@ -384,7 +446,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.JsonTransObjectBootstrap">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tudc.entity.Enum.function.test" />
+      <module name="jsonTransObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tudc.util.jsonTransObject.model.enumpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonTransObjectBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="jsonTransObject" />
       <extension name="coverage">
@@ -404,6 +479,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.JsonTransObjectBootstrap" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -424,18 +500,55 @@
       <workItem from="1596177426191" duration="7544000" />
       <workItem from="1596246087465" duration="7690000" />
       <workItem from="1596520994536" duration="1117000" />
-      <workItem from="1596523535260" duration="4779000" />
+      <workItem from="1596523535260" duration="22858000" />
+      <workItem from="1597130207581" duration="3354000" />
+      <workItem from="1597394173624" duration="1201000" />
+      <workItem from="1597637510848" duration="3192000" />
+      <workItem from="1599188968493" duration="2417000" />
+      <workItem from="1603895746388" duration="6622000" />
+      <workItem from="1603937571939" duration="217000" />
+      <workItem from="1604046789513" duration="5673000" />
+      <workItem from="1604108292387" duration="35680000" />
     </task>
+    <task id="LOCAL-00001" summary="新增了正则校验功能">
+      <created>1596530105403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530105403</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新增对象赋值功能">
+      <created>1604235222797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604235222797</updated>
+    </task>
+    <task id="LOCAL-00003" summary="抽一下方法">
+      <created>1604236465483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604236465483</updated>
+    </task>
+    <task id="LOCAL-00004" summary="抽一下方法">
+      <created>1604236938275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604236938275</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56865000" />
+    <option name="totallyTimeSpent" value="133300000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-6" y="0" width="1546" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" weight="0.2386059" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49581006" weight="0.28952992" />
       <window_info id="Designer" order="1" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -445,38 +558,38 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.58519554" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.4441341" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" weight="0.30854607" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32914925" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.5226629" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32960895" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3282123" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3263041" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49720672" visible="true" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.15951742" />
       <window_info anchor="right" id="RestServices" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
-      <window_info anchor="right" id="Structure" order="12" sideWeight="0.5021097" side_tool="true" weight="0.3458445" />
+      <window_info anchor="right" id="Structure" order="12" sideWeight="0.5027933" side_tool="true" weight="0.41420913" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2386059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49581006" visible="true" weight="0.28952992" />
       <window_info id="Designer" order="1" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -486,42 +599,53 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.58519554" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.4441341" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" visible="true" weight="0.30854607" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32914925" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.5226629" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32960895" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3282123" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3263041" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49720672" visible="true" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.15951742" />
       <window_info anchor="right" id="RestServices" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
-      <window_info anchor="right" id="Structure" order="12" sideWeight="0.5021097" side_tool="true" weight="0.3458445" />
+      <window_info anchor="right" id="Structure" order="12" sideWeight="0.5027933" side_tool="true" weight="0.41420913" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增了正则校验功能" />
+    <MESSAGE value="新增对象赋值功能" />
+    <MESSAGE value="抽一下方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽一下方法" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>field.getName()==&quot;sexEnum&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>property.getValue().equals(&quot;phone&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -540,57 +664,83 @@
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>value.getClass()</expression-string>
+        <expression-string>((ParameterizedTypeImpl) type).getActualTypeArguments()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>field.getGenericType()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>requstBody.get(property.getValue()) instanceof JSONObject</expression-string>
+        <expression-string>o.</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>requstBody.get(property.getValue()).getClass()</expression-string>
+        <expression-string>o instanceof Collection</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(JSONObject)requstBody.get(property.getValue())</expression-string>
+        <expression-string>o.getClass() instanceof Collection</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(JSONArray)requstBody.get(property.getValue())</expression-string>
+        <expression-string>o.getClass()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>requstBody.get(property.getValue())</expression-string>
+        <expression-string>propertyMap.get(&quot;taskDto&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>obtainChildParam(requstBody,property)</expression-string>
+        <expression-string>bean.attributeValue(&quot;id&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>((Class) typeArgument).newInstance()</expression-string>
+        <expression-string>o.getClass().getClassLoader()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>child</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>parentMethod</expression-string>
+        <expression-string>o.getClass().getClassLoader() == null</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>StringUtils.isEmpty(sensitive.value())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sensitive != null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getMethod2.invoke(o)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getMethod2.invoke(t)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bean.attributeValue(&quot;id&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>method.invoke(t,value)</expression-string>
         <language-id>JAVA</language-id>
@@ -611,418 +761,285 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>method.invoke(t,sf.parse((String) value))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>property.getIsRequired()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>requstBody.get(property.getValue())==null</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>property.getValue()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>t.getClass().privateGetDeclaredMethods(true)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolverComposite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.17/tomcat-embed-core-9.0.17.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.17/tomcat-embed-core-9.0.17.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="1087" column="14" selection-start-line="1087" selection-start-column="11" selection-end-line="1087" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/util/ResourceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="168" column="54" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/net/URL.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultDocumentLoader.java" />
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/org/w3c/dom/Document.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="745" column="18" selection-start-line="745" selection-start-column="18" selection-end-line="745" selection-end-column="18" />
-          <folding>
-            <element signature="e#28748#28749#0" expanded="true" />
-            <element signature="e#28775#28776#0" expanded="true" />
-          </folding>
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar!/org/dom4j/Element.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" />
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/com/sun/org/apache/xerces/internal/parsers/DOMParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="124" column="22" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-sources.jar!/org/dom4j/Element.java">
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="590" column="28" selection-start-line="590" selection-start-column="23" selection-end-line="590" selection-end-column="28" />
+        <state relative-caret-position="454">
+          <caret line="338" column="20" selection-start-line="338" selection-start-column="20" selection-end-line="338" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/core/ResolvableType.java">
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/javax/xml/parsers/DocumentBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="1268" column="42" selection-start-line="1268" selection-start-column="39" selection-end-line="1268" selection-end-column="42" />
+        <state relative-caret-position="-2">
+          <caret line="231" column="6" lean-forward="true" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.6.RELEASE/spring-webmvc-5.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestBodyAdvice.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar!/com/alibaba/fastjson/support/springfox/SwaggerJsonSerializer.class" />
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/lang/invoke/BoundMethodHandle.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.6.RELEASE/spring-webmvc-5.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyAdviceChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.6.RELEASE/spring-webmvc-5.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="146" column="73" selection-start-line="146" selection-start-column="73" selection-end-line="146" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.6.RELEASE/spring-webmvc-5.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyMethodProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="83" column="45" lean-forward="true" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="1913" column="36" selection-start-line="1913" selection-start-column="19" selection-end-line="1913" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar!/lombok/Setter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar!/lombok/Data.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/Jsontransobject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="202">
+          <caret line="222" column="63" selection-start-line="222" selection-start-column="58" selection-end-line="222" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#28604#0" expanded="true" />
+            <element signature="e#9193#9194#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="19" />
+        <state relative-caret-position="5992">
+          <caret line="282" column="18" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="41" />
           <folding>
-            <element signature="e#3044#3045#0" expanded="true" />
-            <element signature="e#3089#3090#0" expanded="true" />
+            <element signature="e#2837#2838#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/core/MethodParameter.java">
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12376">
-          <caret line="514" column="36" selection-start-line="514" selection-start-column="36" selection-end-line="514" selection-end-column="36" />
+        <state relative-caret-position="504">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/WebConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolver.class" />
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="448">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/codegen/OptimisticTypesPersistence.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        <state relative-caret-position="26124">
+          <caret line="959" column="13" selection-start-line="959" selection-start-column="13" selection-end-line="959" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/tudc/entity/ApproverDto.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/Swagger2Config.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jsontransobject/B.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="600">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/SexEnum.java">
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="226">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/Maven/jar/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/core/MethodParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11452">
+          <caret line="479" column="72" selection-start-line="479" selection-start-column="7" selection-end-line="479" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="674" column="7" lean-forward="true" selection-start-line="649" selection-start-column="4" selection-end-line="674" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#32636#32637#0" expanded="true" />
+            <element signature="e#32683#32684#0" expanded="true" />
+            <element signature="e#56746#56747#0" expanded="true" />
+            <element signature="e#56789#56790#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.6.RELEASE/spring-webmvc-5.1.6.RELEASE.jar!/org/springframework/web/servlet/HandlerMapping.class">
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="2100">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/FromWhereEnum.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/OrderDto.java">
+    <entry file="jar://E:/software/Maven/jar/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="103">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/controller/BootstrapController.java">
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="226">
+          <caret line="244" column="15" selection-start-line="244" selection-start-column="11" selection-end-line="244" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/TaskDto.java">
+    <entry file="jar://E:/software/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="149">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/ApproverDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2632">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-          <folding>
-            <element signature="e#6390#6391#0" expanded="true" />
-            <element signature="e#6438#6439#0" expanded="true" />
-            <element signature="e#10720#10721#0" expanded="true" />
-            <element signature="e#10750#10751#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="143" column="27" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="27" />
+        <state relative-caret-position="226">
+          <caret line="188" column="12" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/ParameterizedType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/TaskDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="336">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/tudc/entity/TaskDto.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/function/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="364">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/Enum/SexEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="110" column="36" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="43" />
+        <state relative-caret-position="280">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/text/DateFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/ApproverDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="355" selection-start-line="355" selection-end-line="355" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="262" column="22" selection-start-line="262" selection-start-column="22" selection-end-line="262" selection-end-column="22" />
+        <state relative-caret-position="129">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
-            <element signature="e#8522#8523#0" expanded="true" />
-            <element signature="e#8567#8568#0" expanded="true" />
-            <element signature="e#8985#8986#0" expanded="true" />
-            <element signature="e#9040#9041#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/advice/MyExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/tudc/entity/OrderDto.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/JsonTransObjectBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="164">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/jsontransobject/A.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/entity/JsonTransObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="336">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/JsonTransObjectEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/MyHandlerMethodArgumentResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar!/com/alibaba/fastjson/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="355" column="23" selection-start-line="355" selection-start-column="23" selection-end-line="355" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jsontransobject/B.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jsontransobject/A.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="10" column="91" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectXmlUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="136" column="73" selection-start-line="136" selection-start-column="73" selection-end-line="136" selection-end-column="73" />
+        <state relative-caret-position="172">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding>
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/JsonTransObjectBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/controller/BootstrapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1031,30 +1048,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/ParamHanlde.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="341" column="47" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
+        <state relative-caret-position="565">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/JsonTransObjectEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/entity/JsonTransObjectProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jsontransobject/A.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/Jsontransobject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/annotation/Sensitive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" selection-start-line="13" selection-start-column="27" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/SensitiveStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11513#11529#0" expanded="true" />
-            <element signature="e#12240#12256#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/MyHandlerMethodArgumentResolver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/model/enumpackage/Desensitizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolver.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/entity/OrderDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="435">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tudc/util/jsonTransObject/util/JsonTransObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="102" column="97" selection-start-line="102" selection-start-column="97" selection-end-line="102" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,6 +1180,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1134,7 +1200,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.projectlombok:lombok:unknown</last-edited>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -25,4 +25,8 @@ public class JsonTransObjectProperty {
      * 正则校验
      */
     private String regex;
+    /**
+     * 脱敏策略
+     */
+    private String sensitiveStrategy;
 }

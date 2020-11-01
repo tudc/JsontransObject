@@ -8,10 +8,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author
- * @create 2020-07-28 16:06
- * @contact
- **/
+ * 脱敏注解
+ */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD})
 public @interface Sensitive {

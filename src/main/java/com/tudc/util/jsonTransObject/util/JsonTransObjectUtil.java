@@ -110,7 +110,15 @@ import java.util.regex.Pattern;
             }
         }
     }
-
+    /**
+     * 脱敏
+     * @param original
+     * @param strategy
+     * @return
+     */
+    private static String desensitization(String original, SensitiveStrategy strategy) {
+        return strategy.getDesensitizer().apply(original);
+    }
     /**
      * 复制自定义类型的属性
      * @param o 该属性的值
@@ -173,15 +181,7 @@ import java.util.regex.Pattern;
         return clz != null && clz.getClassLoader() == null;
     }
 
-    /**
-     * 脱敏
-     * @param original
-     * @param strategy
-     * @return
-     */
-    private static String desensitization(String original, SensitiveStrategy strategy) {
-        return strategy.getDesensitizer().apply(original);
-    }
+
 
     /**
      * 通过class 设置属性

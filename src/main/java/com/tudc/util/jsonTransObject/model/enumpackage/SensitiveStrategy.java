@@ -3,10 +3,8 @@ package com.tudc.util.jsonTransObject.model.enumpackage;
 import lombok.Getter;
 
 /**
- * @author
- * @create 2020-08-11 15:18
- * @contact
- **/
+ * 脱敏策略
+ */
 @Getter
 public enum SensitiveStrategy {
     USERNAME(name->name.replaceAll("(\\S)\\S(\\S*)", "$1*$2")),

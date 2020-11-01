@@ -38,7 +38,7 @@
             <property value="name" getterMethod="getName"  type="string" />
             <property value="age" getterMethod="getAge" type="int" />
             <property value="approverDtoList" getterMethod="getApproverDtoList" hasChild="true" type="array">
-                <property value="name" getterMethod="getName" type="string" />
+                <property value="name" getterMethod="getName" type="string" sensitiveStrategy=""/>
                 <property value="age" getterMethod="getAge" type="int" />
                 <property value="sex" getterMethod="getSexNum" type="string" />
             </property>
