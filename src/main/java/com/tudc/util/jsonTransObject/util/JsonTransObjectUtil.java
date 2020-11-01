@@ -25,6 +25,14 @@ import java.util.regex.Pattern;
  */
 @Log4j2 public class JsonTransObjectUtil {
 
+    /**
+     * 复制对象
+     * @param jsontransobjectValue 规则ID
+     * @param t 数据源对象
+     * @param <T>
+     * @return
+     * @throws Exception
+     */
     public static <T> T parseObject(String jsontransobjectValue, T t) throws Exception {
         Class clazz = t.getClass();
         Field[] fields = clazz.getDeclaredFields();
@@ -33,63 +41,111 @@ import java.util.regex.Pattern;
             Map<String, Method> map = obtainMethodFromClass(clazz);
             JsonTransObject jsonTransObjectConf = jsonTransObjectMap.get(jsontransobjectValue);
             List<JsonTransObjectProperty> propertyList = jsonTransObjectConf.getPropertyList();
-            return parseChildObj(propertyList, fields, map, t);
+            return copyChildObj(propertyList, fields, map, t);
         } else {
             log.warn("未找到当前jsonTransObject【{}】配置的信息信息", jsontransobjectValue);
             return null;
         }
     }
 
-    private static <T, E> T parseChildObj(List<JsonTransObjectProperty> propertyList, Field[] fields, Map<String, Method> map, T t)
+    /**
+     * 复制指定类型的目标对象
+     * @param propertyList 复制时，使用的规则
+     * @param fields 指定类的定义属性集合
+     * @param map 指定类的方法集合
+     * @param t 数据源对象
+     * @param <T>
+     * @return
+     * @throws IllegalAccessException
+     * @throws InstantiationException
+     * @throws InvocationTargetException
+     * @throws NoSuchMethodException
+     */
+    private static <T> T copyChildObj(List<JsonTransObjectProperty> propertyList, Field[] fields, Map<String, Method> map, T t)
         throws IllegalAccessException, InstantiationException, InvocationTargetException, NoSuchMethodException {
         T targetObj = (T) t.getClass().newInstance();
         Map<String, JsonTransObjectProperty> propertyMap = new HashMap<>();
         propertyList.forEach(item -> propertyMap.put(item.getValue(), item));
         for (Field field : fields) {
-            if (Optional.ofNullable(propertyMap.get(field.getName())).isPresent()) {
-                JsonTransObjectProperty property = propertyMap.get(field.getName());
-                Method getMethod = map.get(property.getGetterMethod());
-                String setMethodName = new StringBuilder(getMethod.getName()).replace(0, 1, "s").toString();
-                Method setMethod = map.get(setMethodName);
-                Object o = getMethod.invoke(t);
-                if (isJavaClass(o.getClass())) {
-                    //如果是集合类
-                    if (o instanceof Collection) {
-                        Type type = field.getGenericType();
-                        Class actualTypeArgument = (Class) ((ParameterizedTypeImpl) type).getActualTypeArguments()[0];
-                        Class collection = o.getClass();
-                        E e = (E) collection.newInstance();
-                        List<JsonTransObjectProperty> childPropertyList = property.getChildJsonTransObjectProperty();
-                        Field[] childFields = actualTypeArgument.getDeclaredFields();
-                        Map<String, Method> childMap = obtainMethodFromClass(actualTypeArgument);
-                        Method me = collection.getDeclaredMethod("add", Object.class);
-                        Iterator it = ((Collection) o).iterator();
-                        while (it.hasNext()) {
-                            me.invoke(e, parseChildObj(childPropertyList, childFields, childMap, it.next()));
-                        }
-                        setMethod.invoke(targetObj, e);
-                    } else {
-                        //检查是否需要进行脱敏
-                        Sensitive sensitive = field.getAnnotation(Sensitive.class);
-                        if (sensitive != null && Optional.ofNullable(sensitive.value()).isPresent()&&o instanceof String) {
-                            o=desensitization((String)o,sensitive.value());
-                        }
-                        setMethod.invoke(targetObj, o);
-                    }
-                } else {
-                    //用户定义的类型
-                    Class childClass = o.getClass();
-                    Field[] childFields = childClass.getDeclaredFields();
-                    Map<String, Method> childMap = obtainMethodFromClass(childClass);
-                    List<JsonTransObjectProperty> childPropertyList = property.getChildJsonTransObjectProperty();
-                    //将子级对象的值赋给当前级别的对象
-                    setMethod.invoke(targetObj, parseChildObj(childPropertyList, childFields, childMap, o));
-                }
-            }
+            copyField(propertyMap,field,map,t,targetObj);
         }
         return targetObj;
     }
 
+    /**
+     * 复制属性
+     * @param propertyMap 校验规则中的属性集合
+     * @param field 属性
+     * @param map 当前对象的方法集合
+     * @param t 数据源对象
+     * @param targetObj 需要复制到的目标对象
+     * @param <T>
+     * @throws InvocationTargetException
+     * @throws IllegalAccessException
+     * @throws NoSuchMethodException
+     * @throws InstantiationException
+     */
+    private static  <T> void copyField(Map<String, JsonTransObjectProperty> propertyMap,Field field, Map<String, Method> map,T t,T targetObj)
+        throws InvocationTargetException, IllegalAccessException, NoSuchMethodException, InstantiationException {
+        if (Optional.ofNullable(propertyMap.get(field.getName())).isPresent()) {
+            JsonTransObjectProperty property = propertyMap.get(field.getName());
+            Method getMethod = map.get(property.getGetterMethod());
+            String setMethodName = new StringBuilder(getMethod.getName()).replace(0, 1, "s").toString();
+            Method setMethod = map.get(setMethodName);
+            Object o = getMethod.invoke(t);
+            if (isJavaClass(o.getClass())) {
+                //如果是集合类
+                if (o instanceof Collection) {
+                    copyCollectionField(field,o,property,setMethod,targetObj);
+                } else {
+                    //检查是否需要进行脱敏
+                    Sensitive sensitive = field.getAnnotation(Sensitive.class);
+                    if (sensitive != null && Optional.ofNullable(sensitive.value()).isPresent()&&o instanceof String) {
+                        o=desensitization((String)o,sensitive.value());
+                    }
+                    setMethod.invoke(targetObj, o);
+                }
+            } else {
+                //用户定义的类型
+                Class childClass = o.getClass();
+                Field[] childFields = childClass.getDeclaredFields();
+                Map<String, Method> childMap = obtainMethodFromClass(childClass);
+                List<JsonTransObjectProperty> childPropertyList = property.getChildJsonTransObjectProperty();
+                //将子级对象的值赋给当前级别的对象
+                setMethod.invoke(targetObj, copyChildObj(childPropertyList, childFields, childMap, o));
+            }
+        }
+    }
+
+    /**
+     * 复制集合类型的对象
+     * @param field 当前的属性
+     * @param o 当前属性的值
+     * @param property 当前属性对应的校验规则
+     * @param setMethod 当前属性的set方法
+     * @param targetObj 属性所属的对象
+     * @param <T>
+     * @throws NoSuchMethodException
+     * @throws IllegalAccessException
+     * @throws InstantiationException
+     * @throws InvocationTargetException
+     */
+    private static<T> void copyCollectionField(Field field,Object o,JsonTransObjectProperty property,Method setMethod,T targetObj)
+        throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
+        Type type = field.getGenericType();
+        Class actualTypeArgument = (Class) ((ParameterizedTypeImpl) type).getActualTypeArguments()[0];
+        Class collection = o.getClass();
+        T e = (T) collection.newInstance();
+        List<JsonTransObjectProperty> childPropertyList = property.getChildJsonTransObjectProperty();
+        Field[] childFields = actualTypeArgument.getDeclaredFields();
+        Map<String, Method> childMap = obtainMethodFromClass(actualTypeArgument);
+        Method me = collection.getDeclaredMethod("add", Object.class);
+        Iterator it = ((Collection) o).iterator();
+        while (it.hasNext()) {
+            me.invoke(e, copyChildObj(childPropertyList, childFields, childMap, it.next()));
+        }
+        setMethod.invoke(targetObj, e);
+    }
     /**
      * 判断是否是java本身的类型
      *
@@ -100,6 +156,12 @@ import java.util.regex.Pattern;
         return clz != null && clz.getClassLoader() == null;
     }
 
+    /**
+     * 脱敏
+     * @param original
+     * @param strategy
+     * @return
+     */
     private static String desensitization(String original, SensitiveStrategy strategy) {
         return strategy.getDesensitizer().apply(original);
     }
