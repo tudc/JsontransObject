@@ -106,15 +106,32 @@ import java.util.regex.Pattern;
                     setMethod.invoke(targetObj, o);
                 }
             } else {
-                //用户定义的类型
-                Class childClass = o.getClass();
-                Field[] childFields = childClass.getDeclaredFields();
-                Map<String, Method> childMap = obtainMethodFromClass(childClass);
-                List<JsonTransObjectProperty> childPropertyList = property.getChildJsonTransObjectProperty();
-                //将子级对象的值赋给当前级别的对象
-                setMethod.invoke(targetObj, copyChildObj(childPropertyList, childFields, childMap, o));
+                copyCustomizeField(o,property,setMethod,targetObj);
             }
         }
+    }
+
+    /**
+     * 复制自定义类型的属性
+     * @param o 该属性的值
+     * @param property 当前属性对应的校验规则
+     * @param setMethod 当前属性的set方法
+     * @param targetObj 属性所属的对象
+     * @param <T>
+     * @throws InvocationTargetException
+     * @throws NoSuchMethodException
+     * @throws InstantiationException
+     * @throws IllegalAccessException
+     */
+    private static<T> void copyCustomizeField(Object o,JsonTransObjectProperty property,Method setMethod,T targetObj)
+        throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
+        //用户定义的类型
+        Class childClass = o.getClass();
+        Field[] childFields = childClass.getDeclaredFields();
+        Map<String, Method> childMap = obtainMethodFromClass(childClass);
+        List<JsonTransObjectProperty> childPropertyList = property.getChildJsonTransObjectProperty();
+        //将子级对象的值赋给当前级别的对象
+        setMethod.invoke(targetObj, copyChildObj(childPropertyList, childFields, childMap, o));
     }
 
     /**
