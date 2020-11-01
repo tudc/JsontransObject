@@ -1,6 +1,8 @@
 package com.tudc.entity;
 
 import com.tudc.entity.Enum.SexEnum;
+import com.tudc.util.jsonTransObject.model.enumpackage.SensitiveStrategy;
+import com.tudc.util.jsonTransObject.annotation.Sensitive;
 import lombok.Data;
 
 /**
@@ -10,11 +12,15 @@ import lombok.Data;
  **/
 @Data
 public class ApproverDto {
+    @Sensitive(SensitiveStrategy.USERNAME)
     private String name;
-    private int age;
-    private SexEnum sex;
+    private Integer age;
+    private SexEnum sex = SexEnum.MAN;
 
-    public void setSexEnum(int sex){
+    public void setSexNum(int sex){
       this.sex=SexEnum.getSexEnum(sex);
+    }
+    public Integer getSexNum(){
+        return sex.getCode();
     }
 }

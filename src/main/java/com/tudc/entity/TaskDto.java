@@ -1,5 +1,7 @@
 package com.tudc.entity;
 
+import com.tudc.util.jsonTransObject.model.enumpackage.SensitiveStrategy;
+import com.tudc.util.jsonTransObject.annotation.Sensitive;
 import lombok.Data;
 
 import java.util.List;
@@ -12,6 +14,7 @@ import java.util.List;
 @Data
 public class TaskDto {
     private List<ApproverDto> approverDtoList;
+    @Sensitive(SensitiveStrategy.USERNAME)
     private String name;
     private Integer age;
 }

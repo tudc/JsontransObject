@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans>
     <bean id="create-order-post">
-        <property value="orderId" setterMethod="setOrderId" type="string" fromWhere="pathvariable" isRequire="true"/>
-        <property value="orderName" setterMethod="setOrderName" type="string" isRequire="true"/>
-        <property value="time" setterMethod="setTime" hasChild="false" type="date" isRequire="true"/>
-        <property value="phone" setterMethod="setPhone" hasChild="false" type="string" isRequire="true"/>
-        <property value="taskDto" setterMethod="setTaskDto" hasChild="true" isRequire="true">
-            <property value="name" setterMethod="setName" hasChild="false" type="string" isRequire="true"/>
-            <property value="age" setterMethod="setAge" hasChild="false" type="int" isRequire="true"/>
-            <property value="approverDtoList" setterMethod="setApproverDtoList" type="array" hasChild="true" isRequire="true">
-                <property value="name" setterMethod="setName" type="string" isRequire="true"/>
-                <property value="age" setterMethod="setAge" type="int" isRequire="true"/>
-                <property value="sex" setterMethod="setSexEnum" type="string" isRequire="true"/>
+        <property value="orderId" setterMethod="setOrderId" type="string" fromWhere="pathvariable" />
+        <property value="orderName" setterMethod="setOrderName" type="string" />
+        <property value="time" setterMethod="setTime" hasChild="false" type="date" isRequire="true" />
+        <property value="phone" setterMethod="setPhone" hasChild="false" isRequire="false" regex="^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$" type="string" />
+        <property value="taskDto" setterMethod="setTaskDto" hasChild="true" type="jsonObject" >
+            <property value="name" setterMethod="setName" hasChild="false" type="string" />
+            <property value="age" setterMethod="setAge" hasChild="false" type="int" />
+            <property value="approverDtoList" setterMethod="setApproverDtoList" type="array" hasChild="true" >
+                <property value="name" setterMethod="setName" type="string" />
+                <property value="age" setterMethod="setAge" type="int" />
+                <property value="sex" setterMethod="setSexNum" type="string" />
+            </property>
+        </property>
+    </bean>
+    <bean id="create-order-post-second">
+        <property value="orderId" setterMethod="setOrderId" type="string" fromWhere="pathvariable" />
+        <property value="orderName" setterMethod="setOrderName" type="string" />
+        <property value="phone" setterMethod="setPhone" hasChild="false" type="string" />
+        <property value="taskDto" setterMethod="setTaskDto" hasChild="true" type="jsonObject" >
+            <property value="name" setterMethod="setName" hasChild="false" type="string" />
+            <property value="age" setterMethod="setAge" hasChild="false" type="int" />
+            <property value="approverDtoList" setterMethod="setApproverDtoList" type="array" hasChild="true" >
+                <property value="name" setterMethod="setName" type="string" />
+                <property value="age" setterMethod="setAge" type="int" />
+                <property value="sex" setterMethod="setSexNum" type="string" />
+            </property>
+        </property>
+    </bean>
+    <bean id="create-order-post-response">
+        <property value="orderId" getterMethod="getOrderId" type="string"/>
+        <property value="orderName" getterMethod="getOrderName" type="string"/>
+        <property value="time" getterMethod="getTime" type="date" />
+        <property value="phone" getterMethod="getPhone"  type="string"/>
+        <property value="taskDto" getterMethod="getTaskDto" hasChild="true" type="jsonObject" >
+            <property value="name" getterMethod="getName"  type="string" />
+            <property value="age" getterMethod="getAge" type="int" />
+            <property value="approverDtoList" getterMethod="getApproverDtoList" hasChild="true" type="array">
+                <property value="name" getterMethod="getName" type="string" />
+                <property value="age" getterMethod="getAge" type="int" />
+                <property value="sex" getterMethod="getSexNum" type="string" />
             </property>
         </property>
     </bean>
